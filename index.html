@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+   <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <!--<div>
+        <a href="#gamecontainer" name="startGame">StartGame</a>
+    </div>-->
+  <!--  <div class="home-page" id="homecontainer">
+        <div>
+            <h1 class="home-heading">ball game</h1>
+            <button onclick="display('gamecontainer')">Start</button>
+        </div>
+    </div>
+--> 
+    <div id="gamecontainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoretext">0 : 0</div>
+        <button id="resetBtn">Reset</button>
+        <div id="game-over" style="display: none">
+            <h1>Game Over</h1>
+            <p id="winner-text"></p>
+            <button id="restartBtn">Restart</button>
+        </div>        
+        <script src="game.js">
+        </script>
+    </div>
+</body>
+
+</html>
